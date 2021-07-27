@@ -1,7 +1,7 @@
 {
-    "name": "creator/movies-plugin",
+    "name": "saurabhdhariwal/comments-plugin",
     "type": "october-plugin",
-    "description": "movies plugins",
+    "description": "None",
     "require": {
         "composer/installers": "~1.5"
     }
