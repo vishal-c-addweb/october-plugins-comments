@@ -12,7 +12,7 @@ var Comment = function () {
             event.preventDefault();
             self.parent_id = id;
             this.clearMessage();
-            $('#comment-' + self.parent_id).find('.comment-content').append($(self.commentName));
+            $('#comment-' + self.parent_id).find('.comment-' + self.parent_id).append($(self.commentName));
             $(self.cancelName).show()
         },
 

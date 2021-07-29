@@ -4,7 +4,7 @@
         <div class="comment-avatar">
             {{post.avatar|raw}}
         </div>
-        <div class="comment-content">
+        <div class="comment-{{post.id}}">
             <div class="comment-header">
                 <span class="comment-name">{{post.name}}</span>
                 <a class="comment-date" href="#comment-{{post.id}}">
